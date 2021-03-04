@@ -17,7 +17,6 @@ public class EnemyController : MonoBehaviour
     //  プレイヤー
     [SerializeField] GameObject player;
     GameObject sound;
-    Rigidbody rigidbody;
     //  それぞれの警察の最初のポジション
     //Transform policeFirstPosition;
     Vector3 policeFirstPosition;
@@ -57,7 +56,6 @@ public class EnemyController : MonoBehaviour
 
         //  autoBrakingを無効にすると目標地点に近づいても速度を落とさない
         agent.autoBraking = false;
-        rigidbody = GetComponent<Rigidbody>();
         playerChaseFlg = true;
     }
 
