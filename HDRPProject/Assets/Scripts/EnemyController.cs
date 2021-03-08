@@ -64,6 +64,13 @@ public class EnemyController : MonoBehaviour
                 enemyState = EnemyState.SURVEY;
             }
         }
+        else if (gameObject.name == "GrandFather2")
+        {
+            if (destPoint == 4 || destPoint == 6 || destPoint == 9)
+            {
+                enemyState = EnemyState.SURVEY;
+            }
+        }
     }
 
     void Update()
@@ -109,7 +116,7 @@ public class EnemyController : MonoBehaviour
         {
             agent.isStopped = false;
         }
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Base Layer.walk a"))
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Base Layer.look for a"))
         {
             animator.SetBool("Survey", false);
         }
@@ -135,7 +142,7 @@ public class EnemyController : MonoBehaviour
         {
             agent.isStopped = true;
         }
-        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("Base Layer.look for a"))
+        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("Base Layer.walk a"))
         {
             animator.SetBool("Survey", true);
         }
@@ -176,7 +183,7 @@ public class EnemyController : MonoBehaviour
         {
             agent.isStopped = false;
         }
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Base Layer.walk a"))
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Base Layer.look for a"))
         {
             animator.SetBool("Survey", false);
         }
@@ -207,12 +214,21 @@ public class EnemyController : MonoBehaviour
         {
             agent.isStopped = false;
         }
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Base Layer.walk a"))
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Base Layer.look for a"))
         {
             animator.SetBool("Survey", false);
         }
 
-
+        Vector3 soundDiff = transform.position - soundObject.transform.position;
+        soundDistance = soundDiff.magnitude;
+        if (soundDistance <= 2)
+        {
+            enemyState = EnemyState.SURVEY;
+        }
+        else
+        {
+            agent.destination = soundObject.transform.position;
+        }
     }
 
     void OnTriggerEnter(Collider col)
@@ -222,7 +238,6 @@ public class EnemyController : MonoBehaviour
             soundObject = col.gameObject;
             enemyState = EnemyState.SOUNDCHASE;
             tracking = true;
-            Debug.Log("サウンド当たり判定に当たった");
             agent.isStopped = false;
         }
     }
@@ -236,7 +251,6 @@ public class EnemyController : MonoBehaviour
             var angle = Vector3.Angle(transform.forward, distance); //  敵から見たプレイヤーの方向
             if (angle <= searchAngle)
             {
-                Debug.Log("プレイヤーが視界内に入った(距離関係なく)");
                 Ray ray = new Ray(transform.position, direction);
                 if (Physics.Raycast(ray, out hit, Mathf.Infinity))
                 {

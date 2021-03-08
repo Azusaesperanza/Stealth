@@ -24,7 +24,6 @@ public class Paper : MonoBehaviour
         paperSoundObject = transform.Find("PaperSoundObject").gameObject;
         paperCollider = paperSoundObject.GetComponent<SphereCollider>();
         paperCollider.enabled = false;
-        Debug.Log(paperSoundObject.name);
         hitFlag = false;
         maxExpansionTimer = expansionTimer;
     }
@@ -34,7 +33,6 @@ public class Paper : MonoBehaviour
         if (col.gameObject.tag == "Player" && hitFlag == false)
         {
             hitFlag = true;
-            Debug.Log("新聞紙を踏んだ");
             paperCollider.enabled = true;
         }
     }
