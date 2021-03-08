@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: b02e63c7c24117e45acd64f6e5ede314
 ModelImporter:
+<<<<<<< HEAD
   serializedVersion: 23
+=======
+  serializedVersion: 18
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
   fileIDToRecycleName:
     100000: //RootNode
     100002: GroundExtents
@@ -63,6 +67,7 @@ ModelImporter:
     4300018: GroundRunwayLines
     4300020: GroundRunway
     9500000: //RootNode
+<<<<<<< HEAD
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
@@ -85,10 +90,13 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: WhiteSmooth
     second: {fileID: 2100000, guid: 616853845a4a54949ac851f2f807aa2a, type: 2}
+=======
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
   materials:
     importMaterials: 1
     materialName: 1
     materialSearch: 2
+<<<<<<< HEAD
     materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
@@ -111,10 +119,25 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
+=======
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    pivotNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
+<<<<<<< HEAD
     globalScale: 0.01
     meshCompression: 0
     addColliders: 0
@@ -123,19 +146,29 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+=======
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 0
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+<<<<<<< HEAD
     preserveHierarchy: 0
     indexFormat: 1
+=======
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
+<<<<<<< HEAD
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
@@ -170,3 +203,28 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257

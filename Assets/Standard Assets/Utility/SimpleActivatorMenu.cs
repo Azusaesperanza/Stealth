@@ -1,15 +1,23 @@
 using System;
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.UI;
 
 #pragma warning disable 618
+=======
+
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
 namespace UnityStandardAssets.Utility
 {
     public class SimpleActivatorMenu : MonoBehaviour
     {
         // An incredibly simple menu which, when given references
         // to gameobjects in the scene
+<<<<<<< HEAD
         public Text camSwitchButton;
+=======
+        public GUIText camSwitchButton;
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
         public GameObject[] objects;
 
 
