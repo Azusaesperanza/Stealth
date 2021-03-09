@@ -2,9 +2,7 @@
 
 public class Paper : MonoBehaviour
 {
-    //[SerializeField] GameObject paperSoundObject;
-    GameObject paperSoundObject;
-    SphereCollider paperCollider;
+    [SerializeField] GameObject paperSoundObject;
     [SerializeField] float expansionSpeed;
     [SerializeField] float expansionTimer;
     float maxExpansionTimer;
@@ -21,9 +19,7 @@ public class Paper : MonoBehaviour
 
     void Init()
     {
-        paperSoundObject = transform.Find("PaperSoundObject").gameObject;
-        paperCollider = paperSoundObject.GetComponent<SphereCollider>();
-        paperCollider.enabled = false;
+        //paperSoundObject = GetComponentInChildren<GameObject>();
         Debug.Log(paperSoundObject.name);
         hitFlag = false;
         maxExpansionTimer = expansionTimer;
@@ -35,7 +31,6 @@ public class Paper : MonoBehaviour
         {
             hitFlag = true;
             Debug.Log("新聞紙を踏んだ");
-            paperCollider.enabled = true;
         }
     }
 
@@ -50,7 +45,6 @@ public class Paper : MonoBehaviour
                 expansionTimer = maxExpansionTimer;
                 hitFlag = false;
                 paperSoundObject.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
-                paperCollider.enabled = false;
             }
         }
     }
