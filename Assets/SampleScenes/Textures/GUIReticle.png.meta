@@ -1,9 +1,15 @@
 fileFormatVersion: 2
 guid: c03c72978d15ecb4d91060d3a10d14f0
 TextureImporter:
+<<<<<<< HEAD
+  fileIDToRecycleName: {}
+  externalObjects: {}
+  serializedVersion: 9
+=======
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -57,9 +63,14 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+<<<<<<< HEAD
+  platformSettings:
+  - serializedVersion: 2
+=======
   applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
     resizeAlgorithm: 0
@@ -70,8 +81,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
+  - serializedVersion: 2
+=======
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
     buildTarget: iPhone
     maxTextureSize: 128
     resizeAlgorithm: 0
@@ -82,8 +97,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 1
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
+  - serializedVersion: 2
+=======
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
     buildTarget: Android
     maxTextureSize: 128
     resizeAlgorithm: 0
@@ -94,8 +113,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 1
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
+  - serializedVersion: 2
+=======
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
     buildTarget: BlackBerry
     maxTextureSize: 128
     resizeAlgorithm: 0
@@ -106,8 +129,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 1
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
+  - serializedVersion: 2
+=======
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
     buildTarget: WP8
     maxTextureSize: 128
     resizeAlgorithm: 0
@@ -118,20 +145,30 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 1
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
+=======
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD
+    spriteID: 2654fdd0f2491e140935e292dc56899e
+=======
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
     vertices: []
     indices: 
     edges: []
     weights: []
+<<<<<<< HEAD
+=======
     secondaryTextures: []
+>>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
