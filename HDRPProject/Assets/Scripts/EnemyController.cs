@@ -4,12 +4,29 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class EnemyController : MonoBehaviour
 {
+    //  移動経路のTransformを格納する配列
+    [SerializeField] Transform[] points;
     [SerializeField] int destPoint = 0;
+    [SerializeField] float trackingRange = 3f;
+    [SerializeField] float quitRange = 5f;
     [SerializeField] float searchAngle = 85f;  //  プレイヤーを見つける視界の角度(70の場合140度)
     [SerializeField] float rayLength = 8f;           //  レイの長さ
     [SerializeField] bool tracking = false;
+    bool playerChaseFlag;
+    bool soundChaseFlag;
+    bool surveyFlag;    //  周辺を見渡すときのフラグ
+    NavMeshAgent agent;
+    Vector3 playerPos;
+    //  プレイヤー
+    [SerializeField] GameObject player;
+    GameObject sound;
+    //  それぞれの警察の最初のポジション
+    //Transform policeFirstPosition;
+    Vector3 policeFirstPosition;
+    //  プレイヤーと警察の離れてる距離
+    float playerDistance;
     //  移動経路のTransformを格納する配列
-    [SerializeField] Transform[] points;
+    [SerializeField] Transform points;
     float playerDistance;   //  プレイヤーと敵の離れている距離
     float soundDistance;
     float surveyTimer;
@@ -47,15 +64,10 @@ public class EnemyController : MonoBehaviour
     void GotoNextPoint()
     {
         //  地点が何も設定されてないときに返す
-        if (points.Length == 0)
-            return;
-
-        //  エージェントが現在設定された目標地点に行くように設定
-        agent.destination = points[destPoint].position;
-
         //  配列内の次の位置を目標地点に設定し、
         //  必要なら出発地点に戻す
         destPoint = (destPoint + 1) % points.Length;
+        Debug.Log("次の目標地点設定" + destPoint);
         //Debug.Log("次の目標地点設定" + destPoint);
         if (gameObject.name == "GrandFather1")
         {
@@ -68,25 +80,35 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        switch (enemyState)
+        if (surveyFlag == false)
         {
-            case EnemyState.WALK:
-                Walk();
-                break;
-            case EnemyState.SURVEY:
-                Survey();
-                break;
-            case EnemyState.PLAYERCHASE:
-                PlayerChase();
-                break;
-            case EnemyState.SOUNDCHASE:
-                SoundChase();
-                break;
+            switch (enemyState)
+            {
+                case EnemyState.WALK:
+                    Walk();
+                    break;
+                case EnemyState.SURVEY:
+                    Survey();
+                    break;
+                case EnemyState.PLAYERCHASE:
+                    PlayerChase();
+                    break;
+                case EnemyState.SOUNDCHASE:
+                    SoundChase();
+                    break;
+            }
         }
     }
 
     void Init()
     {
+        policeFirstPosition = gameObject.transform.position;
+        agent = GetComponent<NavMeshAgent>();
+
+        //  autoBrakingを無効にすると目標地点に近づいても速度を落とさない
+        agent.autoBraking = false;
+        playerChaseFlag = true;
+        surveyFlag = false;
         surveyTimer = SURVEYMAXTIMER;
         playerChaseTimer = PLAYERCHASEMAXTIME;
         player = GameObject.FindGameObjectWithTag("Player");
@@ -101,19 +123,69 @@ public class EnemyController : MonoBehaviour
     /// </summary>
     void Walk()
     {
+        //  Playerとの距離を測る
+        playerPos = player.transform.position;
+        playerDistance = Vector3.Distance(this.transform.position, playerPos);
         if (tracking)
         {
+            if (soundChaseFlag == false)
+            {
+                //  プレイヤーを追いかけてる時
+                if (playerChaseFlag)
+                {
+                    //Debug.Log("プレイヤーを追いかけてる");
+                    //  追跡の時、quitRangeより距離が離れたら中止
+                    if (playerDistance > quitRange)
+                    {
+                        tracking = false;
+                    }
+
+                    //  Playerを目標とする
+                    agent.destination = playerPos;
+                }
+            }
+            else
+            {
+                soundDistance = Vector3.Distance(this.transform.position, sound.transform.position);
+                agent.destination = sound.transform.position;
+                if (soundDistance < 2)
+                {
+                    tracking = false;
+                    soundChaseFlag = false;
+                    Debug.Log("サウンドまでの移動解除");
+                }
+            }
             tracking = false;
         }
+        else
         if (agent.isStopped)
         {
-            agent.isStopped = false;
-        }
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Base Layer.walk a"))
-        {
-            animator.SetBool("Survey", false);
-        }
+            if (playerChaseFlag)
+            {
+                //  PlayerがtrackingRangeより近づいたら追跡開始
+                if (playerDistance < trackingRange)
+                {
+                    tracking = true;
+                }
 
+                //  エージェントが現目標地点に近づいてきたら
+                //  次の目標地点を選択する
+                if (!agent.pathPending && agent.remainingDistance < 0.5f)
+                {
+                    GotoNextPoint();
+                }
+                agent.isStopped = false;
+            }
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("Base Layer.walk a"))
+            {
+                animator.SetBool("Survey", false);
+            }
+
+            if (soundChaseFlag)
+            {
+                tracking = true;
+            }
+        }
         //  エージェントが現目標地点に近づいてきたら
         //  次の目標地点を選択する
         if (!agent.pathPending && agent.remainingDistance < 0.5f)
@@ -122,8 +194,6 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// 周辺を見渡す処理
     /// </summary>
     void Survey()
     {
@@ -142,9 +212,14 @@ public class EnemyController : MonoBehaviour
 
         if (gameObject.name == "GrandFather1")
         {
-            surveyTimer -= Time.deltaTime;
+            if ((destPoint == 4 || destPoint == 6 || destPoint == 10) && surveyFlag == false)
+                surveyTimer -= Time.deltaTime;
             if (surveyTimer <= 0f)
             {
+                surveyFlag = true;
+                agent.isStopped = true;
+                Debug.Log("周辺を見渡す");
+                animator.SetBool("Survey", true);
                 enemyState = EnemyState.WALK;
                 surveyTimer = SURVEYMAXTIMER;
                 agent.destination = points[destPoint].position;
@@ -155,12 +230,24 @@ public class EnemyController : MonoBehaviour
             surveyTimer -= Time.deltaTime;
             if (surveyTimer <= 0f)
             {
+                surveyTimer -= Time.deltaTime;
+                if (surveyTimer <= 0f)
+                {
+                    surveyFlag = false;
+                    surveyTimer = SURVEYMAXTIMER;
+                    agent.isStopped = false;
+                    GotoNextPoint();
+                    Debug.Log("徘徊再開");
+                    animator.SetBool("Survey", false);
+                }
                 enemyState = EnemyState.WALK;
                 surveyTimer = SURVEYMAXTIMER;
                 agent.isStopped = false;
                 GotoNextPoint();
             }
         }
+        //else if (gameObject.name == "GrandFather2")
+        //{
     }
 
     /// <summary>
@@ -181,6 +268,7 @@ public class EnemyController : MonoBehaviour
             animator.SetBool("Survey", false);
         }
 
+        //}
         if (playerChaseTimer >= 0)
         {
             //  プレイヤーを目標とする
@@ -193,12 +281,14 @@ public class EnemyController : MonoBehaviour
             playerChaseTimer = PLAYERCHASEMAXTIME;
         }
     }
-
     /// <summary>
     /// 音の方に向かう処理
     /// </summary>
     void SoundChase()
     {
+        //  trackingRangeの範囲を赤いワイヤーフレームで示す
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, trackingRange);
         if (tracking == false)
         {
             tracking = true;
@@ -211,14 +301,14 @@ public class EnemyController : MonoBehaviour
         {
             animator.SetBool("Survey", false);
         }
-
-
     }
 
     void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.tag == "SoundCollider")
         {
+            sound = col.gameObject;
+            soundChaseFlag = true;
             soundObject = col.gameObject;
             enemyState = EnemyState.SOUNDCHASE;
             tracking = true;
