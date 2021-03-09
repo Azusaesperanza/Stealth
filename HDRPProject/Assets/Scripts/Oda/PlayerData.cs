@@ -20,6 +20,18 @@ public class PlayerData
         Time1 = 0;
         UnlockStage1 = 0;
     }
+    public void AllDataBack()
+    {
+        Debug.Log("破片の数:"+Fragment);
+        Debug.Log("ボックスの中にいるか:"+InBox);
+        Debug.Log("今どっちのワールドにいるか:"+PlayerWorld);
+        Debug.Log("今懐中電灯がついているか:"+FlashlightActive);
+        Debug.Log("現在ゲームが始まってからどれくらい経ったか:"+Time);
+        Debug.Log("現在どこまでステージが解放されているか:"+UnlockStage);
+
+
+
+    }
 
     public PlayerData(int fragment, bool inBox, int playerWorld, bool flashlightActive, float time, int unlockStage)
     {
