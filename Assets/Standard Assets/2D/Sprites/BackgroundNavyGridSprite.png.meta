@@ -1,12 +1,19 @@
 fileFormatVersion: 2
 guid: 1d0c184845252df44a655359de388cb8
 TextureImporter:
+<<<<<<< HEAD
   internalIDToNameTable:
   - first:
       213: 21300000
     second: PrototypeBlue04x04
   externalObjects: {}
   serializedVersion: 11
+=======
+  fileIDToRecycleName:
+    21300000: PrototypeBlue04x04
+  externalObjects: {}
+  serializedVersion: 9
+>>>>>>> cbf288d (多分これが基なるやつ。)
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -60,9 +67,14 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+<<<<<<< HEAD
   applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
+=======
+  platformSettings:
+  - serializedVersion: 2
+>>>>>>> cbf288d (多分これが基なるやつ。)
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 512
     resizeAlgorithm: 0
@@ -73,8 +85,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+=======
+  - serializedVersion: 2
+>>>>>>> cbf288d (多分これが基なるやつ。)
     buildTarget: iPhone
     maxTextureSize: 512
     resizeAlgorithm: 0
@@ -85,8 +101,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 1
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+=======
+  - serializedVersion: 2
+>>>>>>> cbf288d (多分これが基なるやつ。)
     buildTarget: Android
     maxTextureSize: 512
     resizeAlgorithm: 0
@@ -97,8 +117,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 1
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+=======
+  - serializedVersion: 2
+>>>>>>> cbf288d (多分これが基なるやつ。)
     buildTarget: BlackBerry
     maxTextureSize: 512
     resizeAlgorithm: 0
@@ -109,8 +133,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 1
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+=======
+  - serializedVersion: 2
+>>>>>>> cbf288d (多分これが基なるやつ。)
     buildTarget: FlashPlayer
     maxTextureSize: 1024
     resizeAlgorithm: 0
@@ -121,8 +149,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 1
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+=======
+  - serializedVersion: 2
+>>>>>>> cbf288d (多分これが基なるやつ。)
     buildTarget: WP8
     maxTextureSize: 512
     resizeAlgorithm: 0
@@ -133,20 +165,30 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 1
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> cbf288d (多分これが基なるやつ。)
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
+=======
+    spriteID: 11df1a0e9b9950648b5ffe04f8fa47bb
+>>>>>>> cbf288d (多分これが基なるやつ。)
     vertices: []
     indices: 
     edges: []
     weights: []
+<<<<<<< HEAD
     secondaryTextures: []
+=======
+>>>>>>> cbf288d (多分これが基なるやつ。)
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

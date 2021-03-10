@@ -1,6 +1,10 @@
 using System;
 using UnityEngine;
 
+<<<<<<< HEAD
+=======
+#pragma warning disable 649
+>>>>>>> cbf288d (多分これが基なるやつ。)
 namespace UnityStandardAssets.Vehicles.Car
 {
     internal enum CarDriveType

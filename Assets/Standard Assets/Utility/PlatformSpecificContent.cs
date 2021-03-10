@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
+<<<<<<< HEAD
+=======
+#pragma warning disable 618, 649
+>>>>>>> cbf288d (多分これが基なるやつ。)
 namespace UnityStandardAssets.Utility
 {
 #if UNITY_EDITOR
