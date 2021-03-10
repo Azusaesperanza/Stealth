@@ -21,7 +21,11 @@ namespace UnityStandardAssets.Utility
             {
                 transform.DetachChildren();
             }
+<<<<<<< HEAD
             DestroyObject(gameObject);
+=======
+            Destroy(gameObject);
+>>>>>>> cbf288d (多分これが基なるやつ。)
         }
     }
 }

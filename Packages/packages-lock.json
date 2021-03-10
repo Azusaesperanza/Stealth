@@ -30,6 +30,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.postprocessing": {
+      "version": "2.3.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.test-framework": {
       "version": "1.1.22",
       "depth": 0,
@@ -51,7 +58,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
+<<<<<<< HEAD
       "version": "1.2.18",
+=======
+      "version": "1.2.14",
+>>>>>>> cbf288d (多分これが基なるやつ。)
       "depth": 0,
       "source": "registry",
       "dependencies": {

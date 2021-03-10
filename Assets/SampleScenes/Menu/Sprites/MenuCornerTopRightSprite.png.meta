@@ -73,7 +73,11 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+>>>>>>> cbf288d (多分これが基なるやつ。)
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -92,7 +96,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< HEAD
       spriteID: 02305410000000000800000000000000
+=======
+      spriteID: eebd7162caad0f7469da09e5860302af
+>>>>>>> cbf288d (多分これが基なるやつ。)
       internalID: 21300000
       vertices: []
       indices: 

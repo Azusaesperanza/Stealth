@@ -2,6 +2,10 @@ using System;
 using System.Collections;
 using UnityEngine;
 
+<<<<<<< HEAD
+=======
+#pragma warning disable 649
+>>>>>>> cbf288d (多分これが基なるやつ。)
 namespace UnityStandardAssets.Vehicles.Car
 {
     public class SkidTrail : MonoBehaviour

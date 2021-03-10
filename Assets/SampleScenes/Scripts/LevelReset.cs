@@ -10,9 +10,12 @@ public class LevelReset :MonoBehaviour , IPointerClickHandler
         // reload the scene
         SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
     }
+<<<<<<< HEAD
 
 
     private void Update()
     {
     }
+=======
+>>>>>>> cbf288d (多分これが基なるやつ。)
 }

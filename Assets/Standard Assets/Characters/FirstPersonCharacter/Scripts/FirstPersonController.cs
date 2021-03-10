@@ -4,6 +4,10 @@ using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
 
+<<<<<<< HEAD
+=======
+#pragma warning disable 618, 649
+>>>>>>> cbf288d (多分これが基なるやつ。)
 namespace UnityStandardAssets.Characters.FirstPerson
 {
     [RequireComponent(typeof (CharacterController))]
