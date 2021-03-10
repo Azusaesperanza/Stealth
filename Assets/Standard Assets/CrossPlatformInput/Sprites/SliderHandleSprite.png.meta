@@ -2,14 +2,14 @@ fileFormatVersion: 2
 guid: 0626b924325d1c34cafa6b22297f4e4f
 TextureImporter:
 <<<<<<< HEAD
-  fileIDToRecycleName: {}
-  externalObjects: {}
-  serializedVersion: 9
-=======
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+  fileIDToRecycleName: {}
+  externalObjects: {}
+  serializedVersion: 9
+>>>>>>> cbf288d (多分これが基なるやつ。)
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -64,13 +64,13 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
 <<<<<<< HEAD
-  platformSettings:
-  - serializedVersion: 2
-=======
   applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+  platformSettings:
+  - serializedVersion: 2
+>>>>>>> cbf288d (多分これが基なるやつ。)
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 256
     resizeAlgorithm: 0
@@ -82,9 +82,9 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
 <<<<<<< HEAD
-=======
     forceMaximumCompressionQuality_BC6H_BC7: 0
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+>>>>>>> cbf288d (多分これが基なるやつ。)
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -92,19 +92,19 @@ TextureImporter:
     physicsShape: []
     bones: []
 <<<<<<< HEAD
-    spriteID: 5f8b25749d186d94aa2c4e23a8cbe1aa
-=======
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+    spriteID: 5f8b25749d186d94aa2c4e23a8cbe1aa
+>>>>>>> cbf288d (多分これが基なるやつ。)
     vertices: []
     indices: 
     edges: []
     weights: []
 <<<<<<< HEAD
-=======
     secondaryTextures: []
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+>>>>>>> cbf288d (多分これが基なるやつ。)
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

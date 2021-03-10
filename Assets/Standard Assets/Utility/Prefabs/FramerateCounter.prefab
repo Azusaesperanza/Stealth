@@ -4,6 +4,15 @@
 GameObject:
   m_ObjectHideFlags: 0
 <<<<<<< HEAD
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22409990}
+  - 223: {fileID: 22323452}
+  - 114: {fileID: 11403178}
+  - 114: {fileID: 11448042}
+=======
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13,16 +22,7 @@ GameObject:
   - component: {fileID: 22323452}
   - component: {fileID: 11403178}
   - component: {fileID: 11448042}
-=======
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 224: {fileID: 22409990}
-  - 223: {fileID: 22323452}
-  - 114: {fileID: 11403178}
-  - 114: {fileID: 11448042}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 5
   m_Name: FramerateCounter
   m_TagString: Untagged
@@ -31,6 +31,41 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &167734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22488988}
+  - 222: {fileID: 22250932}
+  - 114: {fileID: 11410038}
+  - 114: {fileID: 11400482}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &11400482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 167734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22bbf57ec543cee42a5aa0ec2dd9e457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11403178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+=======
 --- !u!224 &22409990
 RectTransform:
   m_ObjectHideFlags: 0
@@ -78,42 +113,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-=======
---- !u!1 &167734
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 224: {fileID: 22488988}
-  - 222: {fileID: 22250932}
-  - 114: {fileID: 11410038}
-  - 114: {fileID: 11400482}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &11400482
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 167734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22bbf57ec543cee42a5aa0ec2dd9e457, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11403178
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -131,6 +131,12 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
 <<<<<<< HEAD
+--- !u!114 &11410038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+=======
 --- !u!114 &11448042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,13 +206,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-=======
---- !u!114 &11410038
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_GameObject: {fileID: 167734}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -215,6 +215,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
 <<<<<<< HEAD
+  m_Color: {r: .196078435, g: .196078435, b: .196078435, a: 1}
+=======
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -222,9 +224,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-=======
-  m_Color: {r: .196078435, g: .196078435, b: .196078435, a: 1}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_FontData:
     m_Font: {fileID: 12800000, guid: b51a3e520f9164da198dc59c8acfccd6, type: 3}
     m_FontSize: 18
@@ -234,9 +234,9 @@ MonoBehaviour:
     m_MaxSize: 40
     m_Alignment: 4
 <<<<<<< HEAD
-    m_AlignByGeometry: 0
 =======
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+    m_AlignByGeometry: 0
+>>>>>>> cbf288d (多分これが基なるやつ。)
     m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
@@ -245,19 +245,6 @@ MonoBehaviour:
 
 '
 <<<<<<< HEAD
---- !u!114 &11400482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22bbf57ec543cee42a5aa0ec2dd9e457, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-=======
 --- !u!114 &11448042
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -343,4 +330,17 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}
   m_IsPrefabParent: 1
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+--- !u!114 &11400482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22bbf57ec543cee42a5aa0ec2dd9e457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> cbf288d (多分これが基なるやつ。)

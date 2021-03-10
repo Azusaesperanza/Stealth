@@ -4,19 +4,19 @@
 GameObject:
   m_ObjectHideFlags: 0
 <<<<<<< HEAD
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+=======
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400000}
-=======
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400000}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 8
   m_Name: Colliders
   m_TagString: Untagged
@@ -25,6 +25,16 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 136: {fileID: 13600000}
+=======
 --- !u!4 &400000
 Transform:
   m_ObjectHideFlags: 0
@@ -63,17 +73,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400002}
   - component: {fileID: 13600000}
-=======
---- !u!1 &100002
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400002}
-  - 136: {fileID: 13600000}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 8
   m_Name: NoseCapsule
   m_TagString: Untagged
@@ -82,6 +82,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400004}
+  - 33: {fileID: 3300042}
+  - 65: {fileID: 6500000}
+=======
 --- !u!4 &400002
 Transform:
   m_ObjectHideFlags: 0
@@ -121,18 +132,7 @@ GameObject:
   - component: {fileID: 400004}
   - component: {fileID: 3300042}
   - component: {fileID: 6500000}
-=======
---- !u!1 &100004
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400004}
-  - 33: {fileID: 3300042}
-  - 65: {fileID: 6500000}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 8
   m_Name: AileronLeftBox
   m_TagString: Untagged
@@ -141,6 +141,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400006}
+  - 33: {fileID: 3300044}
+  - 65: {fileID: 6500002}
+=======
 --- !u!4 &400004
 Transform:
   m_ObjectHideFlags: 0
@@ -187,18 +198,7 @@ GameObject:
   - component: {fileID: 400006}
   - component: {fileID: 3300044}
   - component: {fileID: 6500002}
-=======
---- !u!1 &100006
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400006}
-  - 33: {fileID: 3300044}
-  - 65: {fileID: 6500002}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 8
   m_Name: TailfinLeftBox
   m_TagString: Untagged
@@ -207,6 +207,16 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100008
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400008}
+  - 146: {fileID: 14600000}
+=======
 --- !u!4 &400006
 Transform:
   m_ObjectHideFlags: 0
@@ -252,17 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400008}
   - component: {fileID: 14600000}
-=======
---- !u!1 &100008
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400008}
-  - 146: {fileID: 14600000}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 8
   m_Name: WheelFront
   m_TagString: Untagged
@@ -271,6 +271,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100016
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400016}
+  - 33: {fileID: 3300012}
+  - 23: {fileID: 2300012}
+=======
 --- !u!4 &400008
 Transform:
   m_ObjectHideFlags: 0
@@ -326,18 +337,7 @@ GameObject:
   - component: {fileID: 400016}
   - component: {fileID: 3300012}
   - component: {fileID: 2300012}
-=======
---- !u!1 &100016
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400016}
-  - 33: {fileID: 3300012}
-  - 23: {fileID: 2300012}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropellerGearRight
   m_TagString: Untagged
@@ -346,6 +346,16 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100018
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400018}
+  - 146: {fileID: 14600002}
+=======
 --- !u!4 &400016
 Transform:
   m_ObjectHideFlags: 0
@@ -415,17 +425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400018}
   - component: {fileID: 14600002}
-=======
---- !u!1 &100018
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400018}
-  - 146: {fileID: 14600002}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 8
   m_Name: WheelRearLeft
   m_TagString: Untagged
@@ -434,6 +434,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100020
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400020}
+  - 33: {fileID: 3300046}
+  - 65: {fileID: 6500004}
+=======
 --- !u!4 &400018
 Transform:
   m_ObjectHideFlags: 0
@@ -489,18 +500,7 @@ GameObject:
   - component: {fileID: 400020}
   - component: {fileID: 3300046}
   - component: {fileID: 6500004}
-=======
---- !u!1 &100020
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400020}
-  - 33: {fileID: 3300046}
-  - 65: {fileID: 6500004}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 8
   m_Name: AileronRightBox
   m_TagString: Untagged
@@ -509,6 +509,16 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100022
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400022}
+  - 136: {fileID: 13600002}
+=======
 --- !u!4 &400020
 Transform:
   m_ObjectHideFlags: 0
@@ -554,17 +564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400022}
   - component: {fileID: 13600002}
-=======
---- !u!1 &100022
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400022}
-  - 136: {fileID: 13600002}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 8
   m_Name: BodyCentreCapsule
   m_TagString: Untagged
@@ -573,6 +573,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100024
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400024}
+  - 33: {fileID: 3300024}
+  - 23: {fileID: 2300024}
+=======
 --- !u!4 &400022
 Transform:
   m_ObjectHideFlags: 0
@@ -612,18 +623,7 @@ GameObject:
   - component: {fileID: 400024}
   - component: {fileID: 3300024}
   - component: {fileID: 2300024}
-=======
---- !u!1 &100024
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400024}
-  - 33: {fileID: 3300024}
-  - 23: {fileID: 2300024}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropellerGearLeft
   m_TagString: Untagged
@@ -632,6 +632,25 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400026}
+  - 54: {fileID: 5400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400006}
+  - 114: {fileID: 11400010}
+  - 114: {fileID: 11400018}
+  - 114: {fileID: 11400004}
+  - 114: {fileID: 11400016}
+  - 95: {fileID: 9500000}
+  - 114: {fileID: 11400012}
+=======
 --- !u!4 &400024
 Transform:
   m_ObjectHideFlags: 0
@@ -710,26 +729,7 @@ GameObject:
   - component: {fileID: 11400016}
   - component: {fileID: 9500000}
   - component: {fileID: 11400012}
-=======
---- !u!1 &100026
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400026}
-  - 54: {fileID: 5400000}
-  - 114: {fileID: 11400000}
-  - 114: {fileID: 11400002}
-  - 114: {fileID: 11400006}
-  - 114: {fileID: 11400010}
-  - 114: {fileID: 11400018}
-  - 114: {fileID: 11400004}
-  - 114: {fileID: 11400016}
-  - 95: {fileID: 9500000}
-  - 114: {fileID: 11400012}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 8
   m_Name: AircraftPropeller
   m_TagString: Player
@@ -738,6 +738,19 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100028
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400028}
+  - 33: {fileID: 3300008}
+  - 23: {fileID: 2300008}
+  m_Layer: 0
+  m_Name: AircraftWingsPropellerGearFront
+=======
 --- !u!4 &400026
 Transform:
   m_ObjectHideFlags: 0
@@ -969,26 +982,26 @@ GameObject:
   - component: {fileID: 400028}
   - component: {fileID: 3300008}
   - component: {fileID: 2300008}
-=======
---- !u!1 &100028
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400028}
-  - 33: {fileID: 3300008}
-  - 23: {fileID: 2300008}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
   m_Layer: 0
   m_Name: AircraftWingsPropellerGearFront
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100030
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400030}
+  - 33: {fileID: 3300034}
+  - 23: {fileID: 2300034}
+=======
 --- !u!4 &400028
 Transform:
   m_ObjectHideFlags: 0
@@ -1059,18 +1072,7 @@ GameObject:
   - component: {fileID: 400030}
   - component: {fileID: 3300034}
   - component: {fileID: 2300034}
-=======
---- !u!1 &100030
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400030}
-  - 33: {fileID: 3300034}
-  - 23: {fileID: 2300034}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropellerFlapRight
   m_TagString: Untagged
@@ -1079,6 +1081,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100032
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400032}
+  - 33: {fileID: 3300002}
+  - 23: {fileID: 2300002}
+=======
 --- !u!4 &400030
 Transform:
   m_ObjectHideFlags: 0
@@ -1149,18 +1162,7 @@ GameObject:
   - component: {fileID: 400032}
   - component: {fileID: 3300002}
   - component: {fileID: 2300002}
-=======
---- !u!1 &100032
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400032}
-  - 33: {fileID: 3300002}
-  - 23: {fileID: 2300002}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropellerFlapLeft
   m_TagString: Untagged
@@ -1169,6 +1171,52 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100034
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400034}
+  - 33: {fileID: 3300038}
+  - 23: {fileID: 2300038}
+  m_Layer: 0
+  m_Name: AircraftWingsPropellerDoorBRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100036
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400036}
+  - 33: {fileID: 3300022}
+  - 23: {fileID: 2300022}
+  m_Layer: 0
+  m_Name: AircraftWingsPropellerDoorBLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100038
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400038}
+  - 33: {fileID: 3300006}
+  - 23: {fileID: 2300006}
+  m_Layer: 0
+=======
 --- !u!4 &400032
 Transform:
   m_ObjectHideFlags: 0
@@ -1239,18 +1287,6 @@ GameObject:
   - component: {fileID: 400034}
   - component: {fileID: 3300038}
   - component: {fileID: 2300038}
-=======
---- !u!1 &100034
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400034}
-  - 33: {fileID: 3300038}
-  - 23: {fileID: 2300038}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
   m_Layer: 0
   m_Name: AircraftWingsPropellerDoorBRight
   m_TagString: Untagged
@@ -1258,7 +1294,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!4 &400034
 Transform:
   m_ObjectHideFlags: 0
@@ -1329,18 +1364,6 @@ GameObject:
   - component: {fileID: 400036}
   - component: {fileID: 3300022}
   - component: {fileID: 2300022}
-=======
---- !u!1 &100036
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400036}
-  - 33: {fileID: 3300022}
-  - 23: {fileID: 2300022}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
   m_Layer: 0
   m_Name: AircraftWingsPropellerDoorBLeft
   m_TagString: Untagged
@@ -1348,7 +1371,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!4 &400036
 Transform:
   m_ObjectHideFlags: 0
@@ -1419,19 +1441,8 @@ GameObject:
   - component: {fileID: 400038}
   - component: {fileID: 3300006}
   - component: {fileID: 2300006}
-=======
---- !u!1 &100038
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400038}
-  - 33: {fileID: 3300006}
-  - 23: {fileID: 2300006}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
   m_Layer: 0
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Name: AircraftWingsPropellerDoorARight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1439,6 +1450,15 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400040}
+=======
 --- !u!4 &400038
 Transform:
   m_ObjectHideFlags: 0
@@ -1507,16 +1527,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400040}
-=======
---- !u!1 &100040
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400040}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 8
   m_Name: CameraTarget
   m_TagString: Untagged
@@ -1525,6 +1536,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100042
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400042}
+  - 33: {fileID: 3300020}
+  - 23: {fileID: 2300020}
+=======
 --- !u!4 &400040
 Transform:
   m_ObjectHideFlags: 0
@@ -1550,18 +1572,7 @@ GameObject:
   - component: {fileID: 400042}
   - component: {fileID: 3300020}
   - component: {fileID: 2300020}
-=======
---- !u!1 &100042
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400042}
-  - 33: {fileID: 3300020}
-  - 23: {fileID: 2300020}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropellerDoorALeft
   m_TagString: Untagged
@@ -1570,6 +1581,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100044
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400044}
+  - 33: {fileID: 3300014}
+  - 23: {fileID: 2300014}
+=======
 --- !u!4 &400042
 Transform:
   m_ObjectHideFlags: 0
@@ -1640,18 +1662,7 @@ GameObject:
   - component: {fileID: 400044}
   - component: {fileID: 3300014}
   - component: {fileID: 2300014}
-=======
---- !u!1 &100044
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400044}
-  - 33: {fileID: 3300014}
-  - 23: {fileID: 2300014}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropellerConeRight
   m_TagString: Untagged
@@ -1660,6 +1671,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100046
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400046}
+  - 33: {fileID: 3300030}
+  - 23: {fileID: 2300030}
+=======
 --- !u!4 &400044
 Transform:
   m_ObjectHideFlags: 0
@@ -1730,18 +1752,7 @@ GameObject:
   - component: {fileID: 400046}
   - component: {fileID: 3300030}
   - component: {fileID: 2300030}
-=======
---- !u!1 &100046
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400046}
-  - 33: {fileID: 3300030}
-  - 23: {fileID: 2300030}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropellerConeLeft
   m_TagString: Untagged
@@ -1750,6 +1761,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100048
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400048}
+  - 33: {fileID: 3300010}
+  - 23: {fileID: 2300010}
+=======
 --- !u!4 &400046
 Transform:
   m_ObjectHideFlags: 0
@@ -1820,18 +1842,7 @@ GameObject:
   - component: {fileID: 400048}
   - component: {fileID: 3300010}
   - component: {fileID: 2300010}
-=======
---- !u!1 &100048
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400048}
-  - 33: {fileID: 3300010}
-  - 23: {fileID: 2300010}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropellerBlurRight
   m_TagString: Untagged
@@ -1840,6 +1851,18 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100050
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400050}
+  - 33: {fileID: 3300048}
+  - 65: {fileID: 6500006}
+  m_Layer: 8
+=======
 --- !u!4 &400048
 Transform:
   m_ObjectHideFlags: 0
@@ -1910,19 +1933,8 @@ GameObject:
   - component: {fileID: 400050}
   - component: {fileID: 3300048}
   - component: {fileID: 6500006}
-=======
---- !u!1 &100050
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400050}
-  - 33: {fileID: 3300048}
-  - 65: {fileID: 6500006}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
   m_Layer: 8
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Name: WingLeftBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1930,6 +1942,16 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100052
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400052}
+  - 136: {fileID: 13600004}
+=======
 --- !u!4 &400050
 Transform:
   m_ObjectHideFlags: 0
@@ -1975,17 +1997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400052}
   - component: {fileID: 13600004}
-=======
---- !u!1 &100052
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400052}
-  - 136: {fileID: 13600004}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 8
   m_Name: BodyRightCapsule
   m_TagString: Untagged
@@ -1994,6 +2006,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100054
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400054}
+  - 33: {fileID: 3300018}
+  - 23: {fileID: 2300018}
+=======
 --- !u!4 &400052
 Transform:
   m_ObjectHideFlags: 0
@@ -2033,18 +2056,7 @@ GameObject:
   - component: {fileID: 400054}
   - component: {fileID: 3300018}
   - component: {fileID: 2300018}
-=======
---- !u!1 &100054
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400054}
-  - 33: {fileID: 3300018}
-  - 23: {fileID: 2300018}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropellerBlurLeft
   m_TagString: Untagged
@@ -2053,6 +2065,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100056
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400056}
+  - 33: {fileID: 3300032}
+  - 23: {fileID: 2300032}
+=======
 --- !u!4 &400054
 Transform:
   m_ObjectHideFlags: 0
@@ -2123,18 +2146,7 @@ GameObject:
   - component: {fileID: 400056}
   - component: {fileID: 3300032}
   - component: {fileID: 2300032}
-=======
---- !u!1 &100056
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400056}
-  - 33: {fileID: 3300032}
-  - 23: {fileID: 2300032}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropellerBladesRight
   m_TagString: Untagged
@@ -2143,6 +2155,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100058
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400058}
+  - 33: {fileID: 3300016}
+  - 23: {fileID: 2300016}
+=======
 --- !u!4 &400056
 Transform:
   m_ObjectHideFlags: 0
@@ -2213,18 +2236,7 @@ GameObject:
   - component: {fileID: 400058}
   - component: {fileID: 3300016}
   - component: {fileID: 2300016}
-=======
---- !u!1 &100058
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400058}
-  - 33: {fileID: 3300016}
-  - 23: {fileID: 2300016}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropellerBladesLeft
   m_TagString: Untagged
@@ -2233,6 +2245,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100060
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400060}
+  - 33: {fileID: 3300036}
+  - 23: {fileID: 2300036}
+=======
 --- !u!4 &400058
 Transform:
   m_ObjectHideFlags: 0
@@ -2303,18 +2326,7 @@ GameObject:
   - component: {fileID: 400060}
   - component: {fileID: 3300036}
   - component: {fileID: 2300036}
-=======
---- !u!1 &100060
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400060}
-  - 33: {fileID: 3300036}
-  - 23: {fileID: 2300036}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropellerAileronRight
   m_TagString: Untagged
@@ -2323,6 +2335,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100062
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400062}
+  - 33: {fileID: 3300004}
+  - 23: {fileID: 2300004}
+=======
 --- !u!4 &400060
 Transform:
   m_ObjectHideFlags: 0
@@ -2393,18 +2416,7 @@ GameObject:
   - component: {fileID: 400062}
   - component: {fileID: 3300004}
   - component: {fileID: 2300004}
-=======
---- !u!1 &100062
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400062}
-  - 33: {fileID: 3300004}
-  - 23: {fileID: 2300004}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropellerAileronLeft
   m_TagString: Untagged
@@ -2413,6 +2425,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100064
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400064}
+  - 33: {fileID: 3300000}
+  - 23: {fileID: 2300000}
+=======
 --- !u!4 &400062
 Transform:
   m_ObjectHideFlags: 0
@@ -2483,18 +2506,7 @@ GameObject:
   - component: {fileID: 400064}
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
-=======
---- !u!1 &100064
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400064}
-  - 33: {fileID: 3300000}
-  - 23: {fileID: 2300000}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropeller
   m_TagString: Untagged
@@ -2503,6 +2515,35 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100066
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400066}
+  - 33: {fileID: 3300050}
+  - 65: {fileID: 6500008}
+  m_Layer: 8
+  m_Name: TailfinRightBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100068
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400068}
+  - 135: {fileID: 13500000}
+  m_Layer: 8
+  m_Name: NoseSphere
+=======
 --- !u!4 &400064
 Transform:
   m_ObjectHideFlags: 0
@@ -2573,18 +2614,6 @@ GameObject:
   - component: {fileID: 400066}
   - component: {fileID: 3300050}
   - component: {fileID: 6500008}
-=======
---- !u!1 &100066
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400066}
-  - 33: {fileID: 3300050}
-  - 65: {fileID: 6500008}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
   m_Layer: 8
   m_Name: TailfinRightBox
   m_TagString: Untagged
@@ -2592,7 +2621,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!4 &400066
 Transform:
   m_ObjectHideFlags: 0
@@ -2638,25 +2666,25 @@ GameObject:
   m_Component:
   - component: {fileID: 400068}
   - component: {fileID: 13500000}
-=======
---- !u!1 &100068
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400068}
-  - 135: {fileID: 13500000}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
   m_Layer: 8
   m_Name: NoseSphere
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100070
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400070}
+  - 146: {fileID: 14600004}
+=======
 --- !u!4 &400068
 Transform:
   m_ObjectHideFlags: 0
@@ -2694,17 +2722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400070}
   - component: {fileID: 14600004}
-=======
---- !u!1 &100070
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400070}
-  - 146: {fileID: 14600004}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 8
   m_Name: WheelRearRight
   m_TagString: Untagged
@@ -2713,6 +2731,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100072
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400072}
+  - 33: {fileID: 3300052}
+  - 65: {fileID: 6500010}
+=======
 --- !u!4 &400070
 Transform:
   m_ObjectHideFlags: 0
@@ -2768,18 +2797,7 @@ GameObject:
   - component: {fileID: 400072}
   - component: {fileID: 3300052}
   - component: {fileID: 6500010}
-=======
---- !u!1 &100072
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400072}
-  - 33: {fileID: 3300052}
-  - 65: {fileID: 6500010}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 8
   m_Name: WingRightBox
   m_TagString: Untagged
@@ -2788,6 +2806,16 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100074
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400074}
+  - 136: {fileID: 13600006}
+=======
 --- !u!4 &400072
 Transform:
   m_ObjectHideFlags: 0
@@ -2833,17 +2861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400074}
   - component: {fileID: 13600006}
-=======
---- !u!1 &100074
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400074}
-  - 136: {fileID: 13600006}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 8
   m_Name: BodyLeftCapsule
   m_TagString: Untagged
@@ -2852,6 +2870,15 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400076}
+=======
 --- !u!4 &400074
 Transform:
   m_ObjectHideFlags: 0
@@ -2889,16 +2916,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400076}
-=======
---- !u!1 &100076
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400076}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftWingsPropeller
   m_TagString: Untagged
@@ -2907,6 +2925,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100078
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400078}
+  - 33: {fileID: 3300062}
+  - 23: {fileID: 2300050}
+=======
 --- !u!4 &400076
 Transform:
   m_ObjectHideFlags: 0
@@ -2950,18 +2979,7 @@ GameObject:
   - component: {fileID: 400078}
   - component: {fileID: 3300062}
   - component: {fileID: 2300050}
-=======
---- !u!1 &100078
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400078}
-  - 33: {fileID: 3300062}
-  - 23: {fileID: 2300050}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftFuselageRudderRight
   m_TagString: Untagged
@@ -2970,6 +2988,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100080
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400080}
+  - 33: {fileID: 3300054}
+  - 23: {fileID: 2300042}
+=======
 --- !u!4 &400078
 Transform:
   m_ObjectHideFlags: 0
@@ -3040,18 +3069,7 @@ GameObject:
   - component: {fileID: 400080}
   - component: {fileID: 3300054}
   - component: {fileID: 2300042}
-=======
---- !u!1 &100080
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400080}
-  - 33: {fileID: 3300054}
-  - 23: {fileID: 2300042}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftFuselageRudderLeft
   m_TagString: Untagged
@@ -3060,6 +3078,17 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100082
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400082}
+  - 33: {fileID: 3300060}
+  - 23: {fileID: 2300048}
+=======
 --- !u!4 &400080
 Transform:
   m_ObjectHideFlags: 0
@@ -3130,18 +3159,7 @@ GameObject:
   - component: {fileID: 400082}
   - component: {fileID: 3300060}
   - component: {fileID: 2300048}
-=======
---- !u!1 &100082
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400082}
-  - 33: {fileID: 3300060}
-  - 23: {fileID: 2300048}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftFuselageGearDoorRight
   m_TagString: Untagged
@@ -3150,6 +3168,34 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100084
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400084}
+  - 33: {fileID: 3300058}
+  - 23: {fileID: 2300046}
+  m_Layer: 0
+  m_Name: AircraftFuselageGearDoorLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100086
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400086}
+  - 33: {fileID: 3300056}
+  - 23: {fileID: 2300044}
+=======
 --- !u!4 &400082
 Transform:
   m_ObjectHideFlags: 0
@@ -3220,18 +3266,6 @@ GameObject:
   - component: {fileID: 400084}
   - component: {fileID: 3300058}
   - component: {fileID: 2300046}
-=======
---- !u!1 &100084
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400084}
-  - 33: {fileID: 3300058}
-  - 23: {fileID: 2300046}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
   m_Layer: 0
   m_Name: AircraftFuselageGearDoorLeft
   m_TagString: Untagged
@@ -3239,7 +3273,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!4 &400084
 Transform:
   m_ObjectHideFlags: 0
@@ -3310,18 +3343,7 @@ GameObject:
   - component: {fileID: 400086}
   - component: {fileID: 3300056}
   - component: {fileID: 2300044}
-=======
---- !u!1 &100086
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400086}
-  - 33: {fileID: 3300056}
-  - 23: {fileID: 2300044}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftFuselageBody
   m_TagString: Untagged
@@ -3330,6 +3352,15 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!1 &100088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400088}
+=======
 --- !u!4 &400086
 Transform:
   m_ObjectHideFlags: 0
@@ -3398,16 +3429,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400088}
-=======
---- !u!1 &100088
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400088}
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_Layer: 0
   m_Name: AircraftFuselage
   m_TagString: Untagged
@@ -3416,26 +3438,6 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
---- !u!4 &400088
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100088}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400086}
-  - {fileID: 400084}
-  - {fileID: 400082}
-  - {fileID: 400080}
-  - {fileID: 400078}
-  m_Father: {fileID: 400026}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
 --- !u!4 &400000
 Transform:
   m_ObjectHideFlags: 1
@@ -3576,10 +3578,20 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100026}
+=======
+--- !u!4 &400088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100088}
+>>>>>>> cbf288d (多分これが基なるやつ。)
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD
   - {fileID: 400040}
   - {fileID: 400000}
   - {fileID: 400076}
@@ -5230,4 +5242,13 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100026}
   m_IsPrefabParent: 1
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+  - {fileID: 400086}
+  - {fileID: 400084}
+  - {fileID: 400082}
+  - {fileID: 400080}
+  - {fileID: 400078}
+  m_Father: {fileID: 400026}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> cbf288d (多分これが基なるやつ。)

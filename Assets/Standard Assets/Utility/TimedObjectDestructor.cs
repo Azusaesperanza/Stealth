@@ -22,10 +22,10 @@ namespace UnityStandardAssets.Utility
                 transform.DetachChildren();
             }
 <<<<<<< HEAD
-            Destroy(gameObject);
-=======
             DestroyObject(gameObject);
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+            Destroy(gameObject);
+>>>>>>> cbf288d (多分これが基なるやつ。)
         }
     }
 }

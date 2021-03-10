@@ -55,10 +55,10 @@ namespace UnityStandardAssets.Utility
                                 Instantiate(source, targetGameObject.transform.position,
                                             targetGameObject.transform.rotation);
 <<<<<<< HEAD
-                                Destroy(targetGameObject);
-=======
                                 DestroyObject(targetGameObject);
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+                                Destroy(targetGameObject);
+>>>>>>> cbf288d (多分これが基なるやつ。)
                             }
                         }
                         break;

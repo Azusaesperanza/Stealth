@@ -59,10 +59,10 @@
     },
     "com.unity.timeline": {
 <<<<<<< HEAD
-      "version": "1.2.14",
-=======
       "version": "1.2.18",
->>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      "version": "1.2.14",
+>>>>>>> cbf288d (多分これが基なるやつ。)
       "depth": 0,
       "source": "registry",
       "dependencies": {
