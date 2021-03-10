@@ -43,10 +43,17 @@ Shader "Toon/Basic" {
 				o.pos = UnityObjectToClipPos(v.vertex);
 				o.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
 <<<<<<< HEAD
+<<<<<<< HEAD
 				o.cubenormal = UnityObjectToViewPos(float4(v.normal,0));
 =======
 				o.cubenormal = mul (UNITY_MATRIX_MV, float4(v.normal,0));
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+				o.cubenormal = mul (UNITY_MATRIX_MV, float4(v.normal,0));
+=======
+				o.cubenormal = UnityObjectToViewPos(float4(v.normal,0));
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
 				UNITY_TRANSFER_FOG(o,o.pos);
 				return o;
 			}

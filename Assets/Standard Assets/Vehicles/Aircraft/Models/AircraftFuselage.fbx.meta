@@ -2,10 +2,17 @@ fileFormatVersion: 2
 guid: 4fea6053a1424d44daf193f09be2d491
 ModelImporter:
 <<<<<<< HEAD
+<<<<<<< HEAD
   serializedVersion: 23
 =======
   serializedVersion: 18
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+  serializedVersion: 18
+=======
+  serializedVersion: 23
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
   fileIDToRecycleName:
     100000: //RootNode
     100002: vehicle_planeGeneric_fuselage
@@ -86,6 +93,10 @@ ModelImporter:
     4300028: AircraftFuselageRudderRight
     9500000: //RootNode
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
@@ -93,12 +104,17 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: AircraftFuselageWhite
     second: {fileID: 2100000, guid: 6f36a222811073946936cf1cdeb78f9c, type: 2}
+<<<<<<< HEAD
 =======
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
   materials:
     importMaterials: 1
     materialName: 1
     materialSearch: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     materialLocation: 0
   animations:
@@ -123,6 +139,8 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
 =======
+=======
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -135,11 +153,39 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+<<<<<<< HEAD
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+=======
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
+<<<<<<< HEAD
 <<<<<<< HEAD
     globalScale: 0.01
     meshCompression: 0
@@ -150,15 +196,31 @@ ModelImporter:
     importCameras: 0
     importLights: 0
 =======
+=======
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
     globalScale: .00999999978
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
+<<<<<<< HEAD
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+=======
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 0
     optimizeMeshForGPU: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
     keepQuads: 0
     weldVertices: 1
@@ -167,11 +229,21 @@ ModelImporter:
 =======
     weldVertices: 1
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+    weldVertices: 1
+=======
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0
@@ -208,6 +280,8 @@ ModelImporter:
   assetBundleName: 
   assetBundleVariant: 
 =======
+=======
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
   tangentSpace:
     normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
@@ -231,4 +305,43 @@ ModelImporter:
   additionalBone: 0
   userData: 
   assetBundleName: 
+<<<<<<< HEAD
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+=======
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1

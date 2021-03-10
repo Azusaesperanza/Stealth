@@ -4,10 +4,17 @@ Properties {
 	_ReflectColor ("Reflection Color", Color) = (1,1,1,0.5)
 	_MainTex ("Base (RGB) Gloss (A)", 2D) = "white" {}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	_Cube ("Reflection Cubemap", Cube) = "_Skybox" {  }
 =======
 	_Cube ("Reflection Cubemap", Cube) = "_Skybox" { TexGen CubeReflect }
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+	_Cube ("Reflection Cubemap", Cube) = "_Skybox" { TexGen CubeReflect }
+=======
+	_Cube ("Reflection Cubemap", Cube) = "_Skybox" {  }
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
 }
 SubShader {
 	LOD 300

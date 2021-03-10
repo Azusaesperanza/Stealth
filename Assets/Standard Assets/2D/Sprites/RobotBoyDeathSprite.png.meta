@@ -152,10 +152,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 1
 =======
     forceMaximumCompressionQuality_BC6H_BC7: 0
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
   - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 1024
@@ -168,10 +175,17 @@ TextureImporter:
     overridden: 1
     androidETC2FallbackOverride: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 1
 =======
     forceMaximumCompressionQuality_BC6H_BC7: 0
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 1024
@@ -184,10 +198,17 @@ TextureImporter:
     overridden: 1
     androidETC2FallbackOverride: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 1
 =======
     forceMaximumCompressionQuality_BC6H_BC7: 0
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
   - serializedVersion: 3
     buildTarget: BlackBerry
     maxTextureSize: 1024
@@ -200,10 +221,17 @@ TextureImporter:
     overridden: 1
     androidETC2FallbackOverride: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 1
 =======
     forceMaximumCompressionQuality_BC6H_BC7: 0
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
   - serializedVersion: 3
     buildTarget: WP8
     maxTextureSize: 1024
@@ -216,10 +244,17 @@ TextureImporter:
     overridden: 1
     androidETC2FallbackOverride: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 1
 =======
     forceMaximumCompressionQuality_BC6H_BC7: 0
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -239,10 +274,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 738f89edaa7f1d34388a962840b49294
 =======
       spriteID: 02305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 02305410000000000800000000000000
+=======
+      spriteID: 738f89edaa7f1d34388a962840b49294
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300000
       vertices: []
       indices: 
@@ -264,10 +306,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 0d0d12a92b21c044ea4e4132395b6131
 =======
       spriteID: 22305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 22305410000000000800000000000000
+=======
+      spriteID: 0d0d12a92b21c044ea4e4132395b6131
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300002
       vertices: []
       indices: 
@@ -289,10 +338,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 2c060a5c99c70b247b2ea6c7d8e450fb
 =======
       spriteID: 42305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 42305410000000000800000000000000
+=======
+      spriteID: 2c060a5c99c70b247b2ea6c7d8e450fb
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300004
       vertices: []
       indices: 
@@ -314,10 +370,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: f68263bebe6622544a83be7b9db73b6e
 =======
       spriteID: 62305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 62305410000000000800000000000000
+=======
+      spriteID: f68263bebe6622544a83be7b9db73b6e
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300006
       vertices: []
       indices: 
@@ -339,10 +402,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 9f0f1b5b7848a7d42ba784166ae5fa03
 =======
       spriteID: 82305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 82305410000000000800000000000000
+=======
+      spriteID: 9f0f1b5b7848a7d42ba784166ae5fa03
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300008
       vertices: []
       indices: 
@@ -364,10 +434,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: b62d51ee8c54d6f4881559570b222559
 =======
       spriteID: a2305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: a2305410000000000800000000000000
+=======
+      spriteID: b62d51ee8c54d6f4881559570b222559
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300010
       vertices: []
       indices: 
@@ -389,10 +466,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 5d0bb5757c4c0f64b8eb43e83131a2c4
 =======
       spriteID: c2305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: c2305410000000000800000000000000
+=======
+      spriteID: 5d0bb5757c4c0f64b8eb43e83131a2c4
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300012
       vertices: []
       indices: 
@@ -414,10 +498,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 6502b7f2582ac064c93bf8739617917e
 =======
       spriteID: e2305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: e2305410000000000800000000000000
+=======
+      spriteID: 6502b7f2582ac064c93bf8739617917e
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300014
       vertices: []
       indices: 
@@ -439,10 +530,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: b08330c32fd93a04eb84a06f0b44fdb9
 =======
       spriteID: 03305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 03305410000000000800000000000000
+=======
+      spriteID: b08330c32fd93a04eb84a06f0b44fdb9
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300016
       vertices: []
       indices: 
@@ -464,10 +562,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 9c1d9e9d6454d8344af1aecd81d7526a
 =======
       spriteID: 23305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 23305410000000000800000000000000
+=======
+      spriteID: 9c1d9e9d6454d8344af1aecd81d7526a
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300018
       vertices: []
       indices: 
@@ -489,10 +594,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: a66b3b5f379308246ad4bef7b54c4efe
 =======
       spriteID: 43305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 43305410000000000800000000000000
+=======
+      spriteID: a66b3b5f379308246ad4bef7b54c4efe
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300020
       vertices: []
       indices: 
@@ -514,10 +626,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: f3f30d85990f30d428696c4876ec62d2
 =======
       spriteID: 63305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 63305410000000000800000000000000
+=======
+      spriteID: f3f30d85990f30d428696c4876ec62d2
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300022
       vertices: []
       indices: 
@@ -539,10 +658,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 32646d033dcecf44fb74ebddd9c0a01b
 =======
       spriteID: 83305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 83305410000000000800000000000000
+=======
+      spriteID: 32646d033dcecf44fb74ebddd9c0a01b
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300024
       vertices: []
       indices: 
@@ -564,10 +690,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 6c6f8844d1681344a840de5484918736
 =======
       spriteID: a3305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: a3305410000000000800000000000000
+=======
+      spriteID: 6c6f8844d1681344a840de5484918736
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300026
       vertices: []
       indices: 
@@ -589,10 +722,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: d0f0021133eb4ed469548735cb79c248
 =======
       spriteID: c3305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: c3305410000000000800000000000000
+=======
+      spriteID: d0f0021133eb4ed469548735cb79c248
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300028
       vertices: []
       indices: 
@@ -614,10 +754,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 0a675a29919ccbc458a61ed3f2e85621
 =======
       spriteID: e3305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: e3305410000000000800000000000000
+=======
+      spriteID: 0a675a29919ccbc458a61ed3f2e85621
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300030
       vertices: []
       indices: 
@@ -639,10 +786,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: c0132967a9bfcb649ab49bfdca1c78a8
 =======
       spriteID: 04305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 04305410000000000800000000000000
+=======
+      spriteID: c0132967a9bfcb649ab49bfdca1c78a8
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300032
       vertices: []
       indices: 
@@ -664,10 +818,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 60ca6a7dec1f9f44bbe284aa584bde10
 =======
       spriteID: 24305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 24305410000000000800000000000000
+=======
+      spriteID: 60ca6a7dec1f9f44bbe284aa584bde10
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300034
       vertices: []
       indices: 
@@ -689,10 +850,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: bc6ab1ab06bf8cb47a07131d08aba505
 =======
       spriteID: 44305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 44305410000000000800000000000000
+=======
+      spriteID: bc6ab1ab06bf8cb47a07131d08aba505
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300036
       vertices: []
       indices: 
@@ -714,10 +882,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 0ce8792ef94372e45aa9dd3c22e12b52
 =======
       spriteID: 64305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 64305410000000000800000000000000
+=======
+      spriteID: 0ce8792ef94372e45aa9dd3c22e12b52
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300038
       vertices: []
       indices: 
@@ -739,10 +914,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 8a5be42dc9019cb419774540f842956c
 =======
       spriteID: 84305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 84305410000000000800000000000000
+=======
+      spriteID: 8a5be42dc9019cb419774540f842956c
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300040
       vertices: []
       indices: 
@@ -764,10 +946,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: e5d6349c46f7c1142a5efc2ff7997416
 =======
       spriteID: a4305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: a4305410000000000800000000000000
+=======
+      spriteID: e5d6349c46f7c1142a5efc2ff7997416
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300042
       vertices: []
       indices: 
@@ -789,10 +978,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: f24644117337d304a85b4bb5a1e8628c
 =======
       spriteID: c4305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: c4305410000000000800000000000000
+=======
+      spriteID: f24644117337d304a85b4bb5a1e8628c
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300044
       vertices: []
       indices: 
@@ -814,10 +1010,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 497e4bda655491c4f8a551d7460e8133
 =======
       spriteID: e4305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: e4305410000000000800000000000000
+=======
+      spriteID: 497e4bda655491c4f8a551d7460e8133
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300046
       vertices: []
       indices: 
@@ -839,10 +1042,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: de2dd818d6d06fe4890f7f80e614b8c8
 =======
       spriteID: 05305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 05305410000000000800000000000000
+=======
+      spriteID: de2dd818d6d06fe4890f7f80e614b8c8
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300048
       vertices: []
       indices: 
@@ -864,10 +1074,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: 66fecb3c0270ac244ac47d474cca233d
 =======
       spriteID: 25305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 25305410000000000800000000000000
+=======
+      spriteID: 66fecb3c0270ac244ac47d474cca233d
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300050
       vertices: []
       indices: 
@@ -889,10 +1106,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: f5c982fd76cb88e4eb16da4f5e0c4024
 =======
       spriteID: 45305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 45305410000000000800000000000000
+=======
+      spriteID: f5c982fd76cb88e4eb16da4f5e0c4024
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300052
       vertices: []
       indices: 

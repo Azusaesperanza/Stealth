@@ -74,10 +74,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 1
 =======
     forceMaximumCompressionQuality_BC6H_BC7: 0
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -97,10 +104,17 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
       spriteID: eebd7162caad0f7469da09e5860302af
 =======
       spriteID: 02305410000000000800000000000000
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+      spriteID: 02305410000000000800000000000000
+=======
+      spriteID: eebd7162caad0f7469da09e5860302af
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
       internalID: 21300000
       vertices: []
       indices: 

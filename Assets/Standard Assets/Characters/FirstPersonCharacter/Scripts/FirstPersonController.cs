@@ -5,9 +5,15 @@ using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma warning disable 618, 649
 =======
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+=======
+#pragma warning disable 618, 649
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
 namespace UnityStandardAssets.Characters.FirstPerson
 {
     [RequireComponent(typeof (CharacterController))]

@@ -2,6 +2,7 @@ fileFormatVersion: 2
 guid: 7d6d5225d5a2b40e3959b66d13b6e29c
 TextureImporter:
 <<<<<<< HEAD
+<<<<<<< HEAD
   fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 9
@@ -10,6 +11,16 @@ TextureImporter:
   externalObjects: {}
   serializedVersion: 11
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+=======
+  fileIDToRecycleName: {}
+  externalObjects: {}
+  serializedVersion: 9
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -64,6 +75,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   platformSettings:
   - serializedVersion: 2
 =======
@@ -71,6 +83,15 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+=======
+  platformSettings:
+  - serializedVersion: 2
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
     resizeAlgorithm: 0
@@ -82,9 +103,15 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     forceMaximumCompressionQuality_BC6H_BC7: 0
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -92,19 +119,33 @@ TextureImporter:
     physicsShape: []
     bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     spriteID: b3c5f1672402da74c8863447f573d9b6
 =======
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+=======
+    spriteID: b3c5f1672402da74c8863447f573d9b6
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
     vertices: []
     indices: 
     edges: []
     weights: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     secondaryTextures: []
 >>>>>>> cb39df0bd0769cb9ae0e2ed7fba6b36d8a078257
+=======
+    secondaryTextures: []
+=======
+>>>>>>> cbf288d (多分これが基なるやつ。)
+>>>>>>> a02a984290f956c0a87879bddb368a3159a50cf1
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
